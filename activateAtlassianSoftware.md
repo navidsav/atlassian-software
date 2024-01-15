@@ -9,7 +9,7 @@ Enter the requested information, When asked for license
 run `atlassian-agent.jar` in Application container
 
 
-docker exec **`<container_name>`** java -jar atlassian-agent.jar -m **`<email>`** -o **`<organisation>`** -p **`<product>`** -s **`<ServerID>`**
+docker exec **`<container_name>`** java -jar /atlassian-agent.jar -m **`<email>`** -o **`<organisation>`** -p **`<product>`** -s **`<ServerID>`**
 
 Server ID is shown at License request step on **Application Setup wizard** 
 
